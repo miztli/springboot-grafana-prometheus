@@ -3,3 +3,8 @@ spring:
     name: practice
 server:
   port: 8080
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
